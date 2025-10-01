@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tsewang Namgail Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
+<h lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page Title -->
+  <title>Tsewang Namgail | AI & DevOps Developer Portfolio</title>
+
+  <!-- ✅ SEO DESCRIPTION -->
+  <meta name="description" content="Portfolio of Tsewang Namgail - AI and DevOps Developer skilled in AI, Cloud, DevOps, and full-stack development. Explore projects, skills, and certifications." />
+
+  <!-- ✅ OPEN GRAPH (Social Media Previews: LinkedIn, WhatsApp, Facebook) -->
+  <meta property="og:title" content="Tsewang Namgail | AI & DevOps Developer Portfolio" />
+  <meta property="og:description" content="Explore projects in AI, Cloud, DevOps, and Web Development by Tsewang Namgail." />
+  <meta property="og:image" content="https://tsewangnamgail.github.io/portfolio/assets/profile-pic.png" />
+  <meta property="og:url" content="https://tsewangnamgail.github.io/portfolio/" />
+  <meta property="og:type" content="website" />
+
+  <!-- ✅ FAVICON (browser tab icon) -->
+  <link rel="icon" href="./assets/profile-pic.png" type="image/png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
   <body>
     <nav id="desktop-nav">
       <div class="logo">Tsewang Namgail</div>
@@ -16,6 +32,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -32,6 +49,7 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -67,7 +85,7 @@
             src="./assets/github.png"
             alt="GitHub profile"
             class="icon"
-            onclick="location.href='https://github.com/tsewangnamgail/'"
+            onclick="location.href='https://github.com/tsewangnamgail'"
           />
         </div>
       </div>
@@ -117,87 +135,10 @@
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          
-          <!-- Frontend -->
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>React</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
     
-          <!-- Backend -->
+          <!-- AI / ML -->
           <div class="details-container">
-            <h2 class="experience-sub-title">Backend / Tools</h2>
-            <div class="article-container">
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>Node.js</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>Express.js</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-    
-          <!-- AI / ML / DL -->
-          <div class="details-container">
-            <h2 class="experience-sub-title">AI / ML / DL</h2>
+            <h2 class="experience-sub-title">AI / ML</h2>
             <div class="article-container">
               <article>
                 <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
@@ -230,6 +171,97 @@
             </div>
           </div>
     
+          <!-- Cloud -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cloud</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Cloud icon" class="icon" />
+                <div>
+                  <h3>AWS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Cloud icon" class="icon" />
+                <div>
+                  <h3>Google Cloud</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Cloud icon" class="icon" />
+                <div>
+                  <h3>Azure</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+    
+          <!-- DevOps -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">DevOps</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="DevOps icon" class="icon" />
+                <div>
+                  <h3>Docker</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="DevOps icon" class="icon" />
+                <div>
+                  <h3>Kubernetes</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="DevOps icon" class="icon" />
+                <div>
+                  <h3>CI/CD (GitHub Actions)</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="DevOps icon" class="icon" />
+                <div>
+                  <h3>Linux</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+    
+          <!-- DSA (Java) -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">DSA (Java)</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Data Structures</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Algorithms</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Problem Solving</h3>
+                  <p>200+ LeetCode Problems</p>
+                </div>
+              </article>
+            </div>
+          </div>
+    
         </div>
       </div>
     
@@ -247,44 +279,151 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+    
+          <!-- Project 1: Portfolio -->
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+              <img src="./assets/project-1.png" alt="Portfolio Website" class="project-img" />
             </div>
             <h2 class="experience-sub-title project-title">Portfolio Website</h2>
+            <p class="project-desc">
+              A responsive personal portfolio website showcasing my skills, projects, and certifications. Built with HTML, CSS, and JavaScript.
+            </p>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tsewangnamgail/portfolio'">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://tsewangnamgail.github.io/portfolio/'">Live Demo</button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/tsewangnamgail/portfolio'">Github</button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://tsewangnamgail.github.io/portfolio/'">Live Demo</button>
+            </div>
+          </div>
+    
+          <!-- Project 2: Traffic Signal Simulation -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Traffic Signal Simulation" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Traffic Signal Simulation</h2>
+            <p class="project-desc">
+              Developed a real-time traffic signal simulation using Python and Pygame. Applied AI-based traffic management to optimize flow and reduce waiting time.
+            </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/tsewangnamgail/traffic-signal-simulation'">Github</button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://your-demo-link.com/traffic-signal'">Live Demo</button>
+            </div>
+          </div>
+    
+          <!-- Project 3: Student Performance Prediction -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="Student Performance Prediction" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Student Performance Prediction</h2>
+            <p class="project-desc">
+              Built a predictive ML model using Python (scikit-learn) to forecast student performance. Implemented preprocessing, feature selection, and regression/classification algorithms.
+            </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/tsewangnamgail/student-performance'">Github</button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://your-demo-link.com/student-performance'">Live Demo</button>
+            </div>
+          </div>
+    
+          <!-- Project 4: Cloud Web App Deployment -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/cloud-deployment.png" alt="Cloud Web App Deployment" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Cloud Web Deployment</h2>
+            <p class="project-desc">
+              Deployed a web application on AWS EC2 with assets on S3. Configured security groups, storage, and environment setup ensuring scalability and availability.
+            </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/tsewangnamgail/cloud-app-deployment'">Github</button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://your-demo-link.com/cloud-app'">Live Demo</button>
+            </div>
+          </div>
+    
+          <!-- Project 5: AI Chatbot -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/ai-chatbot.png" alt="AI Chatbot" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">AI Chatbot</h2>
+            <p class="project-desc">
+              Created a rule-based AI chatbot using Python (NLP). Implemented natural language processing to understand queries and provide automated responses.
+            </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/tsewangnamgail/ai-chatbot'">Github</button>
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://your-demo-link.com/ai-chatbot'">Live Demo</button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CERTIFICATION -->
+    <section id="certifications">
+      <p class="section__text__p1">View My</p>
+      <h1 class="title">Certifications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/cert-1.png" alt="Certification 1" class="project-img" />
+            </div>
+            <h1 class="experience-sub-title project-title">Explore Machine Learning using Python</h1>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/cert-1.png')">View Certificate</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://verify.onwingspan.com'">Verify</button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+              <img src="./assets/cert-2.png" alt="Certification 2" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">Todo App</h2>
+            <h2 class="experience-sub-title project-title">Programming Fundamentals using Python - Part 1</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tsewangnamgail/todo-app'">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://tsewangnamgail.github.io/todo-app/'">Live Demo</button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/cert-2.png')">View Certificate</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://verify.onwingspan.com/'">Verify</button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+              <img src="./assets/cert-3.png" alt="Certification 3" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">Todo App</h2>
+            <h2 class="experience-sub-title project-title">Programming Fundamentals using Python - Part 2</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tsewangnamgail/todo-app'">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://tsewangnamgail.github.io/todo-app/'">Live Demo</button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/cert-3.png')">View Certificate</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://verify_onwingspan.com'">Verify</button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+              <img src="./assets/cert-4.png" alt="Certification 4" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">Weather Dashboard</h2>
+            <h2 class="experience-sub-title project-title">AWS Cloud Practitioiner Essentials</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/tsewangnamgail/weather-dashboard'">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://tsewangnamgail.github.io/weather-dashboard/'">Live Demo</button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/cert-4.png')">View Certificate</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Verify</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/cert-4.png" alt="Certification 4" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">AWS Cloud Quest: Cloud Practitioner</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/cert-5.png')">View Certificate</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Verify</button>
             </div>
           </div>
         </div>
@@ -319,6 +458,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
